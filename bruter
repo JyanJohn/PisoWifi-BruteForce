@@ -1,0 +1,10 @@
+#!/data/data/com.termux/files/usr/bin/sh
+# Date: 10-03-21
+# Creators: mkdirlove, JyanJohn
+# Version 1.0
+# ------NOTE------
+# Pls dont copy:)
+
+set -e
+
+exec bash .scripts/main "$@"

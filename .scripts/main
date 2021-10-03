@@ -1,0 +1,145 @@
+#!/bin/bash
+# Main Source Code
+
+# Date: 10-03-21
+# Version 1.0
+# Made In Philippines!
+
+
+# Hold on....Why are you here? lemme guess....to copy the source code...
+# Fine, you can copy my code... just give credits to mkdirlove and JyanJohn ok:)
+
+# Author: JyanJohn
+
+
+# Start of code
+# bunch of stuff
+check=0
+check=1
+ok="ok"
+ENTER="Press ENTER to continue..."
+
+# Some Colors
+w='\e[97m'
+g='\033[1;92m'
+r='\033[1;91m'
+a='\033[1;94m'
+b='\e[1;4m'
+cyan='\033[1;36m'
+green='\033[1;32m'
+red='\033[1;31m'
+yellow='\033[1;33m'
+blue='\033[1;34m'
+purple='\033[1;35m'
+reset='\033[0m'
+G='\e[110m'
+G1='\e[101m'
+o='\033[0m'
+
+# Banner
+
+toilet -f slant " PisoWifi" | lolcat -as 100
+toilet -f slant "  Bruter" | lolcat -as 100
+
+echo -e "$a        [==========================]$a"
+echo -e "$a        []  _______               []$a"
+echo -e "$a        []  |     |  __________   []$a"
+echo -e "$a        []  | |   |  |$yellow"Piso"$r"Wifi"$a|   $a[]$a"
+echo -e "$a        []  |     |               []$a"
+echo -e "$a        []  |     |    $green(O)        $a[]$a"
+echo -e "$a        []  |_____|               []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        []   ______________       []$a"
+echo -e "$a        []   |            |       []$a"
+echo -e "$a        []   |            |       []$a"
+echo -e "$a        []   |           ())      []$a"
+echo -e "$a        []   |           (()      []$a"
+echo -e "$a        []   |            |       []$a"
+echo -e "$a        []   |____________|       []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        []                        []$a"
+echo -e "$a        >_<======================>_<$a"
+echo -e ""
+echo -e "$a         By JyanJohn and mkdirlove  $a"
+
+# Menu
+
+echo -e "          $red Press ENTER to continue"
+echo -e $yellow
+echo -n -e "pwb > "
+sleep 2
+read tmp
+echo -e ""
+echo -e "       $blue MAIN MENU"
+sleep 0.5
+echo -e "        -----------------------"
+sleep 0.1
+echo -e "$a        [$r"01"$a"]"$g PisoWifi-Bruter"
+sleep 0.1
+echo -e "$a        [$r"02"$a"]"$g About"
+sleep 0.1
+echo -e "$a        [$r"XX"$a"]"$g Exit $reset"
+sleep 0.5
+echo -e $yellow
+echo -n $B "pwb > "
+read option
+if [[ $option == "" ]];
+then
+	echo -e "$red Please enter the correct number of choice..."
+	echo 
+	echo -e "$green You are redirecting to main menu....."
+	sleep2
+pwb
+fi
+
+# More stuff
+
+
+pisowifi-bruter()
+{
+exec ./.scripts/pisowifi-ssh-bruter.sh "$@"
+}
+
+about()
+{
+echo -e "$green            PisoWifi-Bruter  $yellow
+
+This is a ssh bruter tool for PisoWifi made by mkdirlove.
+Im JyanJohn and im the one who made this UI.
+
+https://github.com/JyanJohn
+
+https://github.com/mkdirlove
+
+CREDITS GOES TO $green mkdirlove$a "and" $red "JyanJohn"$reset"
+echo
+echo -e "$red        Press ENTER"
+echo $yellow
+echo -n "pwb > "
+read tmp
+pwb
+}
+
+# Even more stuff
+
+case "$option" in 
+	1) pisowifi-bruter
+		;;
+	2) about
+		;;
+
+esac
+if [ $pwb -eq x ] || [ $pwb -eq X ] || [ $pwb -eq XX ] || [ $pwb -eq xx ] ;
+then
+clear
+echo "Thank you for using PisoWifi-Bruter!"
+sleep 0.5
+echo "Exiting now....."
+sleep 5
+clear
+exit
+fi
+read pwb
