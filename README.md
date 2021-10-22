@@ -29,30 +29,6 @@
 ```
 ###
 ###
-## __Termux Installation Guide and Usage__
-```
- pkg update && pkg upgrade
-```
-```
- pkg install git
-```
-```
- git clone https://github.com/mkdirlove/pisowifi-ssh-bruter
-```
-```
- cd pisowifi-ssh-bruter
-```
-```
- chmod +x *
-```
-```
- bash install.sh
-```
-```
- bash pisowifi-ssh-bruter.sh
-```
-###
-###
 ## __How to use__
 ```
  Step 1. Connect to a PisoWifi
