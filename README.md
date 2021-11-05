@@ -7,10 +7,10 @@
 ## __Installation and how to use__
 
 ```
- sudo apt update
+ apt update
 ```
 ```
- sudo apt install git
+ apt install git
 ```
 ```
  git clone https://github.com/JyanJohn/PisoWifi-BruteForce
