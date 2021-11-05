@@ -1,0 +1,83 @@
+#!/bin/sh
+
+
+# Hello
+
+# This is code for the installer
+
+# BTW Why are you here?
+
+# If you want to copy this, just leave my name here dont erase it
+
+
+
+
+# Banner
+clear
+echo "-----{| Installer for PisoWifi-BruteForce|}-----"
+echo "----------------{<Version : 1.1>}---------------"
+echo "--------------{<Author : JyanJohn>}-------------"
+
+# Test the patience of the user lol
+sleep 3
+echo ""
+echo ""
+echo "DO NOT USE THIS FOR ILLEGAL USE!"
+sleep 3
+echo ""
+echo ""
+echo "Starting....."
+sleep 3
+
+# Install the dependencies
+
+# Make sures the system is up to date
+apt update
+apt upgrade -y
+
+# Installs some stuff
+apt-get install git -y
+apt-get install curl -y
+apt-get install php -y
+apt-get install wget -y
+apt-get install toilet -y
+
+# Installs more stuff
+apt-get install python3 -y
+apt-get install ruby -y
+
+# Installs nmap
+apt-get install nmap -y
+
+# NOTE : Hydra is no longer in the Termux Repo
+#        Because they dont like hacking tools
+#        in their repo.
+#
+#        BUT thanks to one of the users in github
+#        this script can clone Hydra and install
+#        it on Termux.
+#
+#        Special Thanks to Yisus7u7 for Hydra-in-Termux
+
+sleep 3
+
+# Clones hydra for termux
+git clone https://github.com/Yisus7u7/hydra-in-termux.git
+
+# Installs Hydra
+cd hydra-in-termux
+bash install.sh
+sleep 3
+cd ..
+
+# Installs lolcat for the main program
+gem install lolcat
+
+
+# Usage instructions
+clear 
+echo "To use the Bruter, just type './main.sh'"
+echo "<^> J Y A N J O H N <^>"
+
+# End of script
+# Written in Termux using Vim

@@ -13,10 +13,10 @@
  sudo apt install git
 ```
 ```
- git clone https://github.com/jyanjohn/pisowifi-bruteforce
+ git clone https://github.com/JyanJohn/PisoWifi-BruteForce
 ```
 ```
- cd pisowifi-bruteforce
+ cd PisoWifi-BruteForce
 ```
 ```
  chmod +x *
@@ -61,6 +61,6 @@
 Give a ⭐️ if this project helped you!
 ##  License
 
-Copyright © <2021> [JyanJohn](https://github.com/jyanjohn).
+Copyright © 2021 [JyanJohn](https://github.com/jyanjohn).
 
 ## Do not use this tool for illegal use!
