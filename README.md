@@ -1,5 +1,5 @@
 ###
-## __Piso Wifi BruteForce__
+## __Piso Wifi BruteForce__i
 ###
 
 ###
@@ -56,6 +56,7 @@
 
 * Instagram: https://facebook.com/jyanjohn
 
+* Special Thanks to [Yisus7u7](https://github.com/Yisus7u7) for the Hydra Installer Script
 ## Show your support
 
 Give a ⭐️ if this project helped you!
