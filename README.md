@@ -58,11 +58,11 @@ you can still install this in Termux using a different distro like Kali Linux, D
 ```
 ## About Me
 **JyanJohn**
-* Website: https://jyanjohn.github.io/Jyandevs.github.io/index.html
+* Website: [Jyandevs.github.io](https://jyanjohn.github.io/Jyandevs.github.io/index.html)
 
-* Facebook: https://facebook.com/jyan.john.5
+* Facebook: [Jyan John](https://facebook.com/jyan.john.5)
 
-* Instagram: https://facebook.com/jyanjohn
+* Instagram: [jyanjohn](https://facebook.com/jyanjohn)
 
 * Special Thanks to [Yisus7u7](https://github.com/Yisus7u7) for the Hydra Installer Script
 ## Contributing
