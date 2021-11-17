@@ -21,14 +21,17 @@ sleep 0.2
 echo "Build Date : 11-17-21"
 sleep 0.2
 echo "Author : JyanJohn"
+sleep 0.2
+echo "Version : 1.2"
 echo ""
+
 # Unnecesarry Loading Time
 sleep 3
 echo "Preparing for Installation..."
 sleep 2
 echo "Done!"
 
-# Install the dependencies
+############## Install the dependencies
 
 # Make sures the system is up to date
 apt update
@@ -47,36 +50,22 @@ apt-get install ruby -y
 
 # Installs nmap
 apt-get install nmap -y
+apt-get install hydra -y
 
-# NOTE : Hydra is no longer in the Termux Repo
-#        Because they dont like hacking tools
-#        in their repo.
-#
-#        BUT thanks to one of the users in github
-#        this script can clone Hydra and install
-#        it on Termux.
-#
-#        Special Thanks to Yisus7u7 for Hydra-in-Termux
-
-sleep 3
-
-# Clones hydra for termux
-git clone https://github.com/Yisus7u7/hydra-in-termux.git
-
-# Installs Hydra
-cd hydra-in-termux
-bash install.sh
-sleep 3
-cd ..
-
-# Installs lolcat for the main program
-gem install lolcat
-
-
-# Usage instructions
-clear 
+############### Final Setup
+# Instructions
+clear
 echo "To use the Bruter, just type './main.sh'"
 echo "<^> J Y A N J O H N <^>"
+sleep 3
+echo ""
+# Finalizing
+echo "Installing Gems and Cleanup"
+apt autoremove
+exec gem install lolcat
 
-# End of script
+################ End of script
 # Written in Termux using Vim
+
+# Ubuntu-21.04 PRoot-Distro
+# JyanJohn
