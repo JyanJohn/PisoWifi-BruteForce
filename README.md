@@ -4,6 +4,16 @@
 ###
 
 ###
+## __Notes__
+* Since Termux removed Hydra from their repo, you cant install Hydra in Termux anymore. But 
+you can still install this in Termux using a different distro like Kali Linux, Debian, and Ubuntu
+
+* This only works on Debian Based Distros.
+
+* If you want to improve this project, just be specific in the Pull Requests.
+
+* Be specific when you open a Issue or it will be closed.
+###
 ###
 ## __Installation and how to use__
 
@@ -18,9 +28,6 @@
 ```
 ```
  cd PisoWifi-BruteForce
-```
-```
- chmod +x *
 ```
 ```
  ./install.sh
@@ -58,11 +65,13 @@
 * Instagram: https://facebook.com/jyanjohn
 
 * Special Thanks to [Yisus7u7](https://github.com/Yisus7u7) for the Hydra Installer Script
-## Show your support
+## Contributing
 
 Give a ⭐️ if this project helped you!
-##  License
+## License
 
 Copyright © 2021 [JyanJohn](https://github.com/jyanjohn).
+
+Licensed under the [MIT](https://github.com/JyanJohn/PisoWifi-BruteForce/blob/main/LICENSE) License.
 
 ## Do not use this tool for illegal use!

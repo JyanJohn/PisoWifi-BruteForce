@@ -14,20 +14,19 @@
 
 # Banner
 clear
-echo "-----{| Installer for PisoWifi-BruteForce|}-----"
-echo "----------------{<Version : 1.1>}---------------"
-echo "--------------{<Author : JyanJohn>}-------------"
-
-# Test the patience of the user lol
+echo "Project Number : Project 003"
+sleep 0.2
+echo "Type : Installer"
+sleep 0.2
+echo "Build Date : 11-17-21"
+sleep 0.2
+echo "Author : JyanJohn"
+echo ""
+# Unnecesarry Loading Time
 sleep 3
-echo ""
-echo ""
-echo "DO NOT USE THIS FOR ILLEGAL USE!"
-sleep 3
-echo ""
-echo ""
-echo "Starting....."
-sleep 3
+echo "Preparing for Installation..."
+sleep 2
+echo "Done!"
 
 # Install the dependencies
 
